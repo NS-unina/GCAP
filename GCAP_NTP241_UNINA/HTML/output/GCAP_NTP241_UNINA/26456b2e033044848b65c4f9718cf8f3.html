@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta name="copyright" content="Copyright &copy; 2025 spromano@unina.it" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+
+		<title>Capella - GCAP_NTP241_UNINA - ControlEntity &#040;C&#045;05&#041; Geolocation System</title>
+		<link rel="stylesheet" href="../../scripts/jquery-treeview/jquery.treeview.css" />
+  		<script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript"></script>
+  		<script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../../css/simpletree.css" />		
+		<link title="default" rel="stylesheet" type="text/css" media="screen, projection" href="../../css/content.css"></link>
+		<script type="text/javascript">
+			if(parent.location.href == self.location.href) {
+				window.location.href = 'index.html?26456b2e033044848b65c4f9718cf8f3' + '#' + self.location.href.substring(self.location.href.lastIndexOf("#")+1);
+			}
+		</script>
+		
+		<style>
+			body {
+				background: white;
+				font-family: Arial;
+			}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+		</style>
+		
+	</head>
+	
+	<body>	<div id="content">
+<img src="../icon/ControlEntity.png" alt="ControlEntity" style="float:left; margin-right:10px" /><h1><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></h1>
+<p style="margin-top:3px; margin-bottom:3px"><span class="elementMetaClass">ControlEntity</span></p>
+<em class="elementPath"><a href="../GCAP_NTP241_UNINA/def4acc56e5b46628d5d0402d9e9546c.html">GCAP&#095;NTP241&#095;UNINA</a> > <a href="../GCAP_NTP241_UNINA/7a64d9a9dda645718ab53d41815da127.html">GCAP&#095;NTP241&#095;UNINA</a> > <a href="../GCAP_NTP241_UNINA/264803bbe6894a5f800fe481462d6ef3.html">STPA Analysis</a> > <a href="../GCAP_NTP241_UNINA/bb20c03837f74270bc8a958834f1116f.html">Control Structure</a> > <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></em>
+
+<p>
+No description.
+</p>
+
+
+
+
+
+
+
+
+   <h2>Content</h2><ul class="generatedList"><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall reject GNSS data with low signal confidence or integrity values.</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall switch to fallback localization (e.g., IMU, compass) upon GNSS loss or detected spoofing.</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall continuously validate GNSS inputs using sensor fusion with onboard sensors (IMU, compass, pressure sensor).</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall not send positional data to the Autopilot unless sensor fusion confidence thresholds are met.</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall log and report any positional uncertainty or inconsistency exceeding predefined thresholds.</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall monitor for inconsistencies between predicted and actual position changes.</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall exchange data with other components across a secure channel</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall ensure integrity of the firmware it runs</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">The Geolocation System shall enforce least-privilege execution</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/42822094f9a44e79ac435a85e883ee4a.html">(R-09) Calculate current drone position based on GNSS and sensor fusion</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/b077837a99a5465391b9534da5f50706.html">(R-10) Validate the integrity and accuracy of received GNSS data</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/97dfcbc9c7e34ff491ccd25c4f51ca72.html">(R-11) Provide position data to the Autopilot in real time</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/52995f482dd946168a15e94ce162d83c.html">(R-12) Detect anomalies in GNSS signal (e.g., spoofing or jamming) and raise alarms</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/fafe1bad6c5b48cba9ea2898a94b4bcf.html">(R-13) Use fallback localization (e.g., from IMU or Compass) when GNSS is unavailable or untrusted</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/b163fe9d0f964d8b8c326a6677ab341a.html">(R-14) Implement firmware integrity validation (e.g., signed updates, hash checks)</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/a2fb1f6caaf34c538b08d2c39c710b01.html">(R-15) Exchange geolocation info with other components over a secured channel</a></li><li><img src="../icon/FeedbackRelation.gif" alt="../icon/FeedbackRelation.gif"><a href="../GCAP_NTP241_UNINA/82038f9d38af48dfaca19ac5948af3c3.html">Feedback: (C-06) GNSS Source -> (C-05) Geolocation System</a></li><li><img src="../icon/ControlRelation.gif" alt="../icon/ControlRelation.gif"><a href="../GCAP_NTP241_UNINA/4792918a72b248778e9df81224917692.html">Control: (C-05) Geolocation System -> (C-03) Autopilot</a></li></ul><h2>Capella Elements</h2><ul class="generatedList"><li><img src="../icon/Entity.gif" alt="../icon/Entity.gif"><a href="../GCAP_NTP241_UNINA/94a8bb1ea9e34c64868ad73735386b72.html">Geolocation System</a></li></ul><h2>Responsibilities</h2><ul class="generatedList"><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/42822094f9a44e79ac435a85e883ee4a.html">(R-09) Calculate current drone position based on GNSS and sensor fusion</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/b077837a99a5465391b9534da5f50706.html">(R-10) Validate the integrity and accuracy of received GNSS data</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/97dfcbc9c7e34ff491ccd25c4f51ca72.html">(R-11) Provide position data to the Autopilot in real time</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/52995f482dd946168a15e94ce162d83c.html">(R-12) Detect anomalies in GNSS signal (e.g., spoofing or jamming) and raise alarms</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/fafe1bad6c5b48cba9ea2898a94b4bcf.html">(R-13) Use fallback localization (e.g., from IMU or Compass) when GNSS is unavailable or untrusted</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/b163fe9d0f964d8b8c326a6677ab341a.html">(R-14) Implement firmware integrity validation (e.g., signed updates, hash checks)</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/a2fb1f6caaf34c538b08d2c39c710b01.html">(R-15) Exchange geolocation info with other components over a secured channel</a></li></ul><h2>Incoming Relations</h2><ul class="generatedList"><li><img src="../icon/FeedbackRelation.gif" alt="../icon/FeedbackRelation.gif"><a href="../GCAP_NTP241_UNINA/82038f9d38af48dfaca19ac5948af3c3.html">Feedback: (C-06) GNSS Source -> (C-05) Geolocation System</a></li></ul><h2>Outgoing Relations</h2><ul class="generatedList"><li><img src="../icon/ControlRelation.gif" alt="../icon/ControlRelation.gif"><a href="../GCAP_NTP241_UNINA/4792918a72b248778e9df81224917692.html">Control: (C-05) Geolocation System -> (C-03) Autopilot</a></li></ul>
+
+
+
+
+<h2>Owned Constraints</h2>
+<p>
+	
+
+</p>
+
+<table style="width: 100%" border="1">
+	<tbody>
+        <tr>
+			<td style="font-weight: bold; text-align: center; width: 15%"> Name and Description</td>
+			<td style="font-weight: bold; text-align: center; width: 55%"> Owned specification</td>
+			<td style="font-weight: bold; text-align: center; width: 15%"> Constrained elements<br /></td>
+			
+        </tr>
+
+        <tr>        	<td>
+<b>The Geolocation System shall reject GNSS data with low signal confidence or integrity values. </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall switch to fallback localization (e.g., IMU, compass) upon GNSS loss or detected spoofing. </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall continuously validate GNSS inputs using sensor fusion with onboard sensors (IMU, compass, pressure sensor). </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall not send positional data to the Autopilot unless sensor fusion confidence thresholds are met. </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall log and report any positional uncertainty or inconsistency exceeding predefined thresholds. </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall monitor for inconsistencies between predicted and actual position changes. </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall exchange data with other components across a secure channel </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall ensure integrity of the firmware it runs </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+        <tr>        	<td>
+<b>The Geolocation System shall enforce least-privilege execution </b>
+
+<p>
+No description.
+</p>
+			</td>
+			<td>
+<b>LinkedText : </b><br/><pre></pre>				
+			</td>
+			<td>  
+<ul class="generatedList"><li><img src="../icon/ControlEntity.gif" alt="ControlEntity" /> <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a></li></ul>			
+			</td>
+        </tr>
+	</tbody>
+</table>
+
+
+
+
+
+
+<h2>Owned diagrams</h2>
+	<div>
+	<p class="diagram-name" id="_gubi4C_eEfCJuOqj35xBmQ">DCD Detailed Controller Diagram of Geolocation System</p>
+	<p class="diagram">
+		<img src="26456b2e033044848b65c4f9718cf8f3/_gubi4C_eEfCJuOqj35xBmQ.jpg" alt="DCD Detailed Controller Diagram of Geolocation System" usemap="#DCD Detailed Controller Diagram of Geolocation System__gubi4C_eEfCJuOqj35xBmQ_PositionMap" />
+		
+		<br/>
+		<br/>
+		<map name="DCD Detailed Controller Diagram of Geolocation System__gubi4C_eEfCJuOqj35xBmQ_PositionMap">
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="622,233,638,249" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#ida812f3bc-95f3-41cf-b9bc-bbef392e5b41" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="459,288,475,304" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id83877c37-36d4-43c8-b23b-dd45cf14e443" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="453,367,469,383" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#idf2b6e852-c0c7-499a-9a9e-2718fb47d21d" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="562,432,578,448" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id4ba0445e-b7b0-4d22-897c-f49491ba2aeb" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="614,599,630,615" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id2920a037-b794-4009-90ef-b337f3832280" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="1015,612,1031,628" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id9562039a-beea-4cac-bcd1-be2a7df0bbd8" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="1123,503,1139,519" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#idd1823da6-335f-4ab7-a1c9-15a7c3b805c0" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="1157,416,1173,432" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id69a3cffe-970f-4118-9061-125bf9c5587a" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="1069,308,1085,324" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id62d3bc72-ba5f-40a5-9654-a7d74d3a0140" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="4792918a72b248778e9df81224917692" coords="715,195,834,205" href="../GCAP_NTP241_UNINA/4792918a72b248778e9df81224917692.html#id4792918a-72b2-4877-8e9d-f81224917692" alt="4792918a72b248778e9df81224917692" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="322,114,722,154" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#ida812f3bc-95f3-41cf-b9bc-bbef392e5b41" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="102,210,502,250" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id83877c37-36d4-43c8-b23b-dd45cf14e443" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="46,319,446,359" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#idf2b6e852-c0c7-499a-9a9e-2718fb47d21d" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="10,406,410,446" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id4ba0445e-b7b0-4d22-897c-f49491ba2aeb" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="390,622,790,662" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id2920a037-b794-4009-90ef-b337f3832280" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="886,634,1286,674" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id9562039a-beea-4cac-bcd1-be2a7df0bbd8" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="1194,509,1594,549" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#idd1823da6-335f-4ab7-a1c9-15a7c3b805c0" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="1202,358,1602,398" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id69a3cffe-970f-4118-9061-125bf9c5587a" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="958,234,1358,274" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id62d3bc72-ba5f-40a5-9654-a7d74d3a0140" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="28acb427cad04014a5f83513b62f4898" coords="706,10,856,80" href="../GCAP_NTP241_UNINA/28acb427cad04014a5f83513b62f4898.html#id28acb427-cad0-4014-a5f8-3513b62f4898" alt="28acb427cad04014a5f83513b62f4898" />
+			<area shape="rect" group="a2fb1f6caaf34c538b08d2c39c710b01" coords="615,562,958,586" href="../GCAP_NTP241_UNINA/a2fb1f6caaf34c538b08d2c39c710b01.html#ida2fb1f6c-aaf3-4c53-8b08-d2c39c710b01" alt="a2fb1f6caaf34c538b08d2c39c710b01" />
+			<area shape="rect" group="b163fe9d0f964d8b8c326a6677ab341a" coords="615,508,964,532" href="../GCAP_NTP241_UNINA/b163fe9d0f964d8b8c326a6677ab341a.html#idb163fe9d-0f96-4d8b-8c32-6a6677ab341a" alt="b163fe9d0f964d8b8c326a6677ab341a" />
+			<area shape="rect" group="fafe1bad6c5b48cba9ea2898a94b4bcf" coords="615,480,1033,504" href="../GCAP_NTP241_UNINA/fafe1bad6c5b48cba9ea2898a94b4bcf.html#idfafe1bad-6c5b-48cb-a9ea-2898a94b4bcf" alt="fafe1bad6c5b48cba9ea2898a94b4bcf" />
+			<area shape="rect" group="52995f482dd946168a15e94ce162d83c" coords="615,452,972,476" href="../GCAP_NTP241_UNINA/52995f482dd946168a15e94ce162d83c.html#id52995f48-2dd9-4616-8a15-e94ce162d83c" alt="52995f482dd946168a15e94ce162d83c" />
+			<area shape="rect" group="97dfcbc9c7e34ff491ccd25c4f51ca72" coords="615,424,859,448" href="../GCAP_NTP241_UNINA/97dfcbc9c7e34ff491ccd25c4f51ca72.html#id97dfcbc9-c7e3-4ff4-91cc-d25c4f51ca72" alt="97dfcbc9c7e34ff491ccd25c4f51ca72" />
+			<area shape="rect" group="b077837a99a5465391b9534da5f50706" coords="615,396,896,420" href="../GCAP_NTP241_UNINA/b077837a99a5465391b9534da5f50706.html#idb077837a-99a5-4653-91b9-534da5f50706" alt="b077837a99a5465391b9534da5f50706" />
+			<area shape="rect" group="42822094f9a44e79ac435a85e883ee4a" coords="615,368,932,392" href="../GCAP_NTP241_UNINA/42822094f9a44e79ac435a85e883ee4a.html#id42822094-f9a4-4e79-ac43-5a85e883ee4a" alt="42822094f9a44e79ac435a85e883ee4a" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="578,342,1057,594" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id26456b2e-0330-4484-8b65-c4f9718cf8f3" alt="26456b2e033044848b65c4f9718cf8f3" />		
+		</map>
+	</p>
+	<p class="diagram-description"></p>
+	</div>
+
+<h2>Diagrams displaying "(C-05) Geolocation System"</h2>
+<ul>
+<li>
+<a href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html#_AUKpYDDCEfCPq7MXolFNmQ">&#091;CFD&#093; Causal Factor Diagram of CA&#045;03&#058; Drone Position &#091;BUS&#093;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/86686690e37e432e916b1f5f3ea49b75.html#_f1LfgDAGEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;13&#058; GNSS source fails to send coordinates to the GPS module &#040;signal loss or transmission error&#041;&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/86787c0ca4de43a695e78bf137104ca4.html#_76KKADACEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;14&#058; GNSS provides incorrect satellite data &#040;e&#046;g&#046;&#044; due to spoofing&#044; drift&#044; or error in ephemeris data&#041;&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/16efed678cdd4b9b918bac38fb6518fe.html#_JYVQQDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;15&#058; GPS module misinterprets or misuses otherwise correct satellite data&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/5cab95896c954854879cee6418b9ce57.html#_P_Zq4DAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;16&#058; GNSS signal is significantly delayed&#044; affecting real&#045;time position estimation&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/7e34d62b7c1047378182eff06a19b21e.html#_XMeVkDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;17&#058; The geolocation system fails to send any position data to the autopilot&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/1a975cf6aeac4b5394e08092637f7632.html#_dWirIDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;18&#058; The geolocation system provides wrong or inconsistent coordinates&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/c285ee71584d43ebae5c455c57065751.html#_iBae0DAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;19&#058; The position is sent with excessive latency&#044; affecting flight path corrections&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/903efc88d5ce4c99b7b966b7d54a1b16.html#_maszQDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;20&#058; Position is calculated using a degraded or unverified GNSS signal&#044; leading to a faulty position fix&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/ee1f70c455284b869380d0fb8f7c1587.html#_VxUsoC9QEfCJuOqj35xBmQ">&#091;CTD&#093; Contextual Traceability Diagram of Loss of Drone</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/a0b5ff9831cd4591afa5fa75717ebde5.html#_EWHFwDDLEfCPq7MXolFNmQ">&#091;CTD&#093; Contextual Traceability Diagram of Tampering of Control Action CA3 via FDI Attack</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/62731c775d5d410087d4a1392724a8f5.html#_Cbmg4DDLEfCPq7MXolFNmQ">&#091;CTD&#093; Contextual Traceability Diagram of Wrong GPS Data</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/ae827ec220ed41a58c1bfa83fa55e247.html#_m9TgEDDHEfCPq7MXolFNmQ">&#091;CTD&#093; Contextual Traceability Diagram of &#091;UCA&#045;14&#093; Control &#046;&#046;&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#_gubi4C_eEfCJuOqj35xBmQ">&#091;DCD&#093; Detailed Controller Diagram of Geolocation System</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/bb20c03837f74270bc8a958834f1116f.html#_ryEX8C5IEfCAO-iQLebKAQ">&#091;HCS&#093; Hierarchical Control Structure Diagram</a> 
+</li>
+</ul>
+
+
+
+
+
+ </div>	</body>
+</html>

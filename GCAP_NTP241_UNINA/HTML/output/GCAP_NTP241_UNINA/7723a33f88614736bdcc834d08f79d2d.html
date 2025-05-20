@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta name="copyright" content="Copyright &copy; 2025 spromano@unina.it" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+
+		<title>Capella - GCAP_NTP241_UNINA - ControlAction &#040;CA&#045;03&#041; Drone Position &#091;BUS&#093;</title>
+		<link rel="stylesheet" href="../../scripts/jquery-treeview/jquery.treeview.css" />
+  		<script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript"></script>
+  		<script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../../css/simpletree.css" />		
+		<link title="default" rel="stylesheet" type="text/css" media="screen, projection" href="../../css/content.css"></link>
+		<script type="text/javascript">
+			if(parent.location.href == self.location.href) {
+				window.location.href = 'index.html?7723a33f88614736bdcc834d08f79d2d' + '#' + self.location.href.substring(self.location.href.lastIndexOf("#")+1);
+			}
+		</script>
+		
+		<style>
+			body {
+				background: white;
+				font-family: Arial;
+			}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+		</style>
+		
+	</head>
+	
+	<body>	<div id="content">
+<img src="../icon/ControlAction.png" alt="ControlAction" style="float:left; margin-right:10px" /><h1><a href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html">&#040;CA&#045;03&#041; Drone Position &#091;BUS&#093;</a></h1>
+<p style="margin-top:3px; margin-bottom:3px"><span class="elementMetaClass">ControlAction</span></p>
+<em class="elementPath"><a href="../GCAP_NTP241_UNINA/def4acc56e5b46628d5d0402d9e9546c.html">GCAP&#095;NTP241&#095;UNINA</a> > <a href="../GCAP_NTP241_UNINA/7a64d9a9dda645718ab53d41815da127.html">GCAP&#095;NTP241&#095;UNINA</a> > <a href="../GCAP_NTP241_UNINA/264803bbe6894a5f800fe481462d6ef3.html">STPA Analysis</a> > <a href="../GCAP_NTP241_UNINA/bb20c03837f74270bc8a958834f1116f.html">Control Structure</a> > <a href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html">&#040;C&#045;05&#041; Geolocation System</a> > <a href="../GCAP_NTP241_UNINA/4792918a72b248778e9df81224917692.html">Control&#058; &#040;C&#045;05&#041; Geolocation System &#045;&gt; &#040;C&#045;03&#041; Autopilot</a> > <a href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html">&#040;CA&#045;03&#041; Drone Position &#091;BUS&#093;</a></em>
+
+<p>
+
+<p>Calculate drone position.</p>
+
+</p>
+
+
+
+
+
+
+
+
+   <h2>Content</h2><ul class="generatedList"><li><img src="../icon/ControlFlawSet.gif" alt="../icon/ControlFlawSet.gif"><a href="../GCAP_NTP241_UNINA/c9c2a2acec0c4639b6f96c81e4d77c2b.html">Causal Factors</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/7e34d62b7c1047378182eff06a19b21e.html">(UCA-17) The geolocation system fails to send any position data to the autopilot.</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/1a975cf6aeac4b5394e08092637f7632.html">(UCA-18) The geolocation system provides wrong or inconsistent coordinates.</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/c285ee71584d43ebae5c455c57065751.html">(UCA-19) The position is sent with excessive latency, affecting flight path corrections.</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/903efc88d5ce4c99b7b966b7d54a1b16.html">(UCA-20) Position is calculated using a degraded or unverified GNSS signal, leading to a faulty position fix.</a></li></ul><h2>Unsafe Control Actions</h2><ul class="generatedList"><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/7e34d62b7c1047378182eff06a19b21e.html">(UCA-17) The geolocation system fails to send any position data to the autopilot.</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/1a975cf6aeac4b5394e08092637f7632.html">(UCA-18) The geolocation system provides wrong or inconsistent coordinates.</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/c285ee71584d43ebae5c455c57065751.html">(UCA-19) The position is sent with excessive latency, affecting flight path corrections.</a></li><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/903efc88d5ce4c99b7b966b7d54a1b16.html">(UCA-20) Position is calculated using a degraded or unverified GNSS signal, leading to a faulty position fix.</a></li></ul><h2>Exercised Responsibilities</h2><ul class="generatedList"><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/42822094f9a44e79ac435a85e883ee4a.html">(R-09) Calculate current drone position based on GNSS and sensor fusion</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/97dfcbc9c7e34ff491ccd25c4f51ca72.html">(R-11) Provide position data to the Autopilot in real time</a></li><li><img src="../icon/Responsibility.gif" alt="../icon/Responsibility.gif"><a href="../GCAP_NTP241_UNINA/a2fb1f6caaf34c538b08d2c39c710b01.html">(R-15) Exchange geolocation info with other components over a secured channel</a></li></ul><h2>Relation</h2><ul class="generatedList"><li><img src="../icon/ControlRelation.gif" alt="../icon/ControlRelation.gif"><a href="../GCAP_NTP241_UNINA/4792918a72b248778e9df81224917692.html">Control: (C-05) Geolocation System -> (C-03) Autopilot</a></li></ul>
+
+
+
+
+
+
+
+
+
+<h2>Owned diagrams</h2>
+	<div>
+	<p class="diagram-name" id="_AUKpYDDCEfCPq7MXolFNmQ">CFD Causal Factor Diagram of CA03 Drone Position BUS</p>
+	<p class="diagram">
+		<img src="7723a33f88614736bdcc834d08f79d2d/_AUKpYDDCEfCPq7MXolFNmQ.jpg" alt="CFD Causal Factor Diagram of CA03 Drone Position BUS" usemap="#CFD Causal Factor Diagram of CA03 Drone Position BUS__AUKpYDDCEfCPq7MXolFNmQ_PositionMap" />
+		
+		<br/>
+		<br/>
+		<map name="CFD Causal Factor Diagram of CA03 Drone Position BUS__AUKpYDDCEfCPq7MXolFNmQ_PositionMap">
+			<area shape="rect" group="60361b9a6ba242d7babbb5769f7b4b2a" coords="283,328,283,328" href="../GCAP_NTP241_UNINA/60361b9a6ba242d7babbb5769f7b4b2a.html#id60361b9a-6ba2-42d7-babb-b5769f7b4b2a" alt="60361b9a6ba242d7babbb5769f7b4b2a" />
+			<area shape="rect" group="cc5cb04e6ec647c494460271741bbdd9" coords="244,161,244,161" href="../GCAP_NTP241_UNINA/cc5cb04e6ec647c494460271741bbdd9.html#idcc5cb04e-6ec6-47c4-9446-0271741bbdd9" alt="cc5cb04e6ec647c494460271741bbdd9" />
+			<area shape="rect" group="7723a33f88614736bdcc834d08f79d2d" coords="306,321,306,321" href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html#id7723a33f-8861-4736-bdcc-834d08f79d2d" alt="7723a33f88614736bdcc834d08f79d2d" />
+			<area shape="rect" group="7723a33f88614736bdcc834d08f79d2d" coords="295,159,295,159" href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html#id7723a33f-8861-4736-bdcc-834d08f79d2d" alt="7723a33f88614736bdcc834d08f79d2d" />
+			<area shape="rect" group="b4a1c0093d5f4ff996dc22905cd1a6eb" coords="610,415,610,415" href="../GCAP_NTP241_UNINA/b4a1c0093d5f4ff996dc22905cd1a6eb.html#idb4a1c009-3d5f-4ff9-96dc-22905cd1a6eb" alt="b4a1c0093d5f4ff996dc22905cd1a6eb" />
+			<area shape="rect" group="7cdfca343855403084d571feef52ece4" coords="517,485,517,485" href="../GCAP_NTP241_UNINA/7cdfca343855403084d571feef52ece4.html#id7cdfca34-3855-4030-84d5-71feef52ece4" alt="7cdfca343855403084d571feef52ece4" />
+			<area shape="rect" group="b6dfc9f123ed4fceaafbc4d742a3fccd" coords="369,442,369,442" href="../GCAP_NTP241_UNINA/b6dfc9f123ed4fceaafbc4d742a3fccd.html#idb6dfc9f1-23ed-4fce-aafb-c4d742a3fccd" alt="b6dfc9f123ed4fceaafbc4d742a3fccd" />
+			<area shape="rect" group="8fd3c0c974e94cdd9bdd31d574c69981" coords="273,398,273,398" href="../GCAP_NTP241_UNINA/8fd3c0c974e94cdd9bdd31d574c69981.html#id8fd3c0c9-74e9-4cdd-9bdd-31d574c69981" alt="8fd3c0c974e94cdd9bdd31d574c69981" />
+			<area shape="rect" group="60361b9a6ba242d7babbb5769f7b4b2a" coords="110,338,260,358" href="../GCAP_NTP241_UNINA/60361b9a6ba242d7babbb5769f7b4b2a.html#id60361b9a-6ba2-42d7-babb-b5769f7b4b2a" alt="60361b9a6ba242d7babbb5769f7b4b2a" />
+			<area shape="rect" group="cc5cb04e6ec647c494460271741bbdd9" coords="10,153,229,173" href="../GCAP_NTP241_UNINA/cc5cb04e6ec647c494460271741bbdd9.html#idcc5cb04e-6ec6-47c4-9446-0271741bbdd9" alt="cc5cb04e6ec647c494460271741bbdd9" />
+			<area shape="rect" group="7723a33f88614736bdcc834d08f79d2d" coords="28,10,178,40" href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html#id7723a33f-8861-4736-bdcc-834d08f79d2d" alt="7723a33f88614736bdcc834d08f79d2d" />
+			<area shape="rect" group="2516a2f5152a4e289474c20f5ac09800" coords="88,258,179,268" href="../GCAP_NTP241_UNINA/2516a2f5152a4e289474c20f5ac09800.html#id2516a2f5-152a-4e28-9474-c20f5ac09800" alt="2516a2f5152a4e289474c20f5ac09800" />
+			<area shape="rect" group="7723a33f88614736bdcc834d08f79d2d" coords="60,226,209,271" href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html#id7723a33f-8861-4736-bdcc-834d08f79d2d" alt="7723a33f88614736bdcc834d08f79d2d" />
+			<area shape="rect" group="f9eaa156ea8d4897b4a4c4cb3e061cd3" coords="430,433,509,443" href="../GCAP_NTP241_UNINA/f9eaa156ea8d4897b4a4c4cb3e061cd3.html#idf9eaa156-ea8d-4897-b4a4-c4cb3e061cd3" alt="f9eaa156ea8d4897b4a4c4cb3e061cd3" />
+			<area shape="rect" group="17516ecb23614579bd441d7c63ac205b" coords="428,423,511,433" href="../GCAP_NTP241_UNINA/17516ecb23614579bd441d7c63ac205b.html#id17516ecb-2361-4579-bd44-1d7c63ac205b" alt="17516ecb23614579bd441d7c63ac205b" />
+			<area shape="rect" group="28acb427cad04014a5f83513b62f4898" coords="423,391,518,446" href="../GCAP_NTP241_UNINA/28acb427cad04014a5f83513b62f4898.html#id28acb427-cad0-4014-a5f8-3513b62f4898" alt="28acb427cad04014a5f83513b62f4898" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="470,93,542,133" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id26456b2e-0330-4484-8b65-c4f9718cf8f3" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="353,93,470,133" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id26456b2e-0330-4484-8b65-c4f9718cf8f3" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="26456b2e033044848b65c4f9718cf8f3" coords="352,62,545,136" href="../GCAP_NTP241_UNINA/26456b2e033044848b65c4f9718cf8f3.html#id26456b2e-0330-4484-8b65-c4f9718cf8f3" alt="26456b2e033044848b65c4f9718cf8f3" />
+			<area shape="rect" group="b4a1c0093d5f4ff996dc22905cd1a6eb" coords="703,421,723,441" href="../GCAP_NTP241_UNINA/b4a1c0093d5f4ff996dc22905cd1a6eb.html#idb4a1c009-3d5f-4ff9-96dc-22905cd1a6eb" alt="b4a1c0093d5f4ff996dc22905cd1a6eb" />
+			<area shape="rect" group="7cdfca343855403084d571feef52ece4" coords="553,511,573,531" href="../GCAP_NTP241_UNINA/7cdfca343855403084d571feef52ece4.html#id7cdfca34-3855-4030-84d5-71feef52ece4" alt="7cdfca343855403084d571feef52ece4" />
+			<area shape="rect" group="b6dfc9f123ed4fceaafbc4d742a3fccd" coords="303,461,323,481" href="../GCAP_NTP241_UNINA/b6dfc9f123ed4fceaafbc4d742a3fccd.html#idb6dfc9f1-23ed-4fce-aafb-c4d742a3fccd" alt="b6dfc9f123ed4fceaafbc4d742a3fccd" />
+			<area shape="rect" group="8fd3c0c974e94cdd9bdd31d574c69981" coords="103,391,123,411" href="../GCAP_NTP241_UNINA/8fd3c0c974e94cdd9bdd31d574c69981.html#id8fd3c0c9-74e9-4cdd-9bdd-31d574c69981" alt="8fd3c0c974e94cdd9bdd31d574c69981" />		
+		</map>
+	</p>
+	<p class="diagram-description"></p>
+	</div>
+
+<h2>Diagrams displaying "(CA-03) Drone Position [BUS]"</h2>
+<ul>
+<li>
+<a href="../GCAP_NTP241_UNINA/7723a33f88614736bdcc834d08f79d2d.html#_AUKpYDDCEfCPq7MXolFNmQ">&#091;CFD&#093; Causal Factor Diagram of CA&#045;03&#058; Drone Position &#091;BUS&#093;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/7e34d62b7c1047378182eff06a19b21e.html#_XMeVkDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;17&#058; The geolocation system fails to send any position data to the autopilot&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/1a975cf6aeac4b5394e08092637f7632.html#_dWirIDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;18&#058; The geolocation system provides wrong or inconsistent coordinates&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/c285ee71584d43ebae5c455c57065751.html#_iBae0DAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;19&#058; The position is sent with excessive latency&#044; affecting flight path corrections&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/903efc88d5ce4c99b7b966b7d54a1b16.html#_maszQDAMEfCJuOqj35xBmQ">&#091;CFD&#093; Causal Factor Diagram of UCA&#045;20&#058; Position is calculated using a degraded or unverified GNSS signal&#044; leading to a faulty position fix&#046;</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/ee1f70c455284b869380d0fb8f7c1587.html#_VxUsoC9QEfCJuOqj35xBmQ">&#091;CTD&#093; Contextual Traceability Diagram of Loss of Drone</a> 
+</li>
+<li>
+<a href="../GCAP_NTP241_UNINA/a0b5ff9831cd4591afa5fa75717ebde5.html#_EWHFwDDLEfCPq7MXolFNmQ">&#091;CTD&#093; Contextual Traceability Diagram of Tampering of Control Action CA3 via FDI Attack</a> 
+</li>
+</ul>
+
+
+
+
+
+ </div>	</body>
+</html>

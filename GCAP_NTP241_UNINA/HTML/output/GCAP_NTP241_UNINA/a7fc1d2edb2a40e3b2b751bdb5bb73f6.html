@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta name="copyright" content="Copyright &copy; 2025 spromano@unina.it" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+
+		<title>Capella - GCAP_NTP241_UNINA - LossScenario &#040;LS&#045;03&#041; Tampering of Control Action CA2 via Command INjection Attack</title>
+		<link rel="stylesheet" href="../../scripts/jquery-treeview/jquery.treeview.css" />
+  		<script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript"></script>
+  		<script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../../css/simpletree.css" />		
+		<link title="default" rel="stylesheet" type="text/css" media="screen, projection" href="../../css/content.css"></link>
+		<script type="text/javascript">
+			if(parent.location.href == self.location.href) {
+				window.location.href = 'index.html?a7fc1d2edb2a40e3b2b751bdb5bb73f6' + '#' + self.location.href.substring(self.location.href.lastIndexOf("#")+1);
+			}
+		</script>
+		
+		<style>
+			body {
+				background: white;
+				font-family: Arial;
+			}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+		</style>
+		
+	</head>
+	
+	<body>	<div id="content">
+<img src="../icon/LossScenario.png" alt="LossScenario" style="float:left; margin-right:10px" /><h1><a href="../GCAP_NTP241_UNINA/a7fc1d2edb2a40e3b2b751bdb5bb73f6.html">&#040;LS&#045;03&#041; Tampering of Control Action CA2 via Command INjection Attack</a></h1>
+<p style="margin-top:3px; margin-bottom:3px"><span class="elementMetaClass">LossScenario</span></p>
+<em class="elementPath"><a href="../GCAP_NTP241_UNINA/def4acc56e5b46628d5d0402d9e9546c.html">GCAP&#095;NTP241&#095;UNINA</a> > <a href="../GCAP_NTP241_UNINA/7a64d9a9dda645718ab53d41815da127.html">GCAP&#095;NTP241&#095;UNINA</a> > <a href="../GCAP_NTP241_UNINA/264803bbe6894a5f800fe481462d6ef3.html">STPA Analysis</a> > <a href="../GCAP_NTP241_UNINA/ab4db3ae34b84fc0b3fec72e7fd4a19f.html">Loss Scenarios</a> > <a href="../GCAP_NTP241_UNINA/a7fc1d2edb2a40e3b2b751bdb5bb73f6.html">&#040;LS&#045;03&#041; Tampering of Control Action CA2 via Command INjection Attack</a></em>
+
+<p>
+No description.
+</p>
+
+
+
+
+
+
+
+
+   <h2>Causal Factors</h2><ul class="generatedList"><li><img src="../icon/ControlFlaw.gif" alt="../icon/ControlFlaw.gif"><a href="../GCAP_NTP241_UNINA/ffc7653a7d8b486d9a73eda4d5fff114.html">[UCA-02] Process: Hazardous Outputs</a></li><li><img src="../icon/ControlFlaw.gif" alt="../icon/ControlFlaw.gif"><a href="../GCAP_NTP241_UNINA/112c4c7d3a5c41e3a68d08f1e170e3c1.html">[UCA-02] Control Input: Inadequate</a></li><li><img src="../icon/ControlFlaw.gif" alt="../icon/ControlFlaw.gif"><a href="../GCAP_NTP241_UNINA/08344cc08b354beab88524362d4179f8.html">[UCA-02] Process: Inadequate Inputs</a></li></ul><h2>Control Action</h2><ul class="generatedList"><li><img src="../icon/ControlAction.gif" alt="../icon/ControlAction.gif"><a href="../GCAP_NTP241_UNINA/aca750b103e34e9ebb08774057a3f98c.html">(CA-02) Flight Commands [Radio]</a></li></ul><h2>Violated Constraints</h2><ul class="generatedList"><li><img src="../icon/SystemConstraint.gif" alt="../icon/SystemConstraint.gif"><a href="../GCAP_NTP241_UNINA/a8290183ca4f4389a6129204a684e513.html">(SC-01) The drone shall initiate controlled emergency procedures upon detection of flight instability.</a></li><li><img src="../icon/SystemConstraint.gif" alt="../icon/SystemConstraint.gif"><a href="../GCAP_NTP241_UNINA/d21fee3058ab4d11b5d97bb27b549fe5.html">(SC-04) The autopilot shall prevent climb commands exceeding the altitude ceiling.</a></li><li><img src="../icon/SystemConstraint.gif" alt="../icon/SystemConstraint.gif"><a href="../GCAP_NTP241_UNINA/85260189e4d149cfad7abeb6a00fb2c4.html">(SC-02) The autopilot shall enforce geofencing limits based on predefined no-fly zones.</a></li></ul><h2>Countermeasures</h2><ul class="generatedList"><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/57d88d96d999471ca3cf93279c5dac67.html">The Radio Control shall ensure that control commands are within valid operational limits before transmission.</a></li><li><img src="../icon/Constraint.gif" alt=" "><a href="../GCAP_NTP241_UNINA/57d88d96d999471ca3cf93279c5dac67.html">The Radio Control unit shall verify signal integrity before transmitting commands to the Autopilot.</a></li></ul><h2>Hazards</h2><ul class="generatedList"><li><img src="../icon/Hazard.gif" alt="../icon/Hazard.gif"><a href="../GCAP_NTP241_UNINA/18ad4e1a91074820bafdb15a022a6b60.html">(H-01) Uncontrolled Emergency Landing</a></li><li><img src="../icon/Hazard.gif" alt="../icon/Hazard.gif"><a href="../GCAP_NTP241_UNINA/624870d666784ca39f3c7e82b64628fb.html">(H-02) Unintentional entry into unauthorized areas</a></li><li><img src="../icon/Hazard.gif" alt="../icon/Hazard.gif"><a href="../GCAP_NTP241_UNINA/278f82e7f6544c7399611bd913886d91.html">(H-04) Violation of the operational altitude ceiling</a></li></ul><h2>Unsafe Control Actions</h2><ul class="generatedList"><li><img src="../icon/UnsafeControlAction.gif" alt="../icon/UnsafeControlAction.gif"><a href="../GCAP_NTP241_UNINA/d368231933bc44d787981b5a81a9d528.html">(UCA-02) The RC transmits corrupted or inaccurate commands due to signal degradation or interface error.</a></li></ul>
+
+
+
+
+
+
+
+
+
+<h2>Owned diagrams</h2>
+	<div>
+	<p class="diagram-name" id="_GL4UkDDLEfCPq7MXolFNmQ">CTD Contextual Traceability Diagram of Tampering of Control Action CA2 via Command INjection Attack</p>
+	<p class="diagram">
+		<img src="a7fc1d2edb2a40e3b2b751bdb5bb73f6/_GL4UkDDLEfCPq7MXolFNmQ.jpg" alt="CTD Contextual Traceability Diagram of Tampering of Control Action CA2 via Command INjection Attack" usemap="#CTD Contextual Traceability Diagram of Tampering of Control Action CA2 via Command INjection Attack__GL4UkDDLEfCPq7MXolFNmQ_PositionMap" />
+		
+		<br/>
+		<br/>
+		<map name="CTD Contextual Traceability Diagram of Tampering of Control Action CA2 via Command INjection Attack__GL4UkDDLEfCPq7MXolFNmQ_PositionMap">
+			<area shape="rect" group="08344cc08b354beab88524362d4179f8" coords="573,898,573,898" href="../GCAP_NTP241_UNINA/08344cc08b354beab88524362d4179f8.html#id08344cc0-8b35-4bea-b885-24362d4179f8" alt="08344cc08b354beab88524362d4179f8" />
+			<area shape="rect" group="112c4c7d3a5c41e3a68d08f1e170e3c1" coords="529,892,529,892" href="../GCAP_NTP241_UNINA/112c4c7d3a5c41e3a68d08f1e170e3c1.html#id112c4c7d-3a5c-41e3-a68d-08f1e170e3c1" alt="112c4c7d3a5c41e3a68d08f1e170e3c1" />
+			<area shape="rect" group="bc688b2033f14edaa4e4fd5299b90543" coords="573,538,573,538" href="../GCAP_NTP241_UNINA/bc688b2033f14edaa4e4fd5299b90543.html#idbc688b20-33f1-4eda-a4e4-fd5299b90543" alt="bc688b2033f14edaa4e4fd5299b90543" />
+			<area shape="rect" group="de6505c28c9d44fdb3acf1986672b125" coords="479,524,479,524" href="../GCAP_NTP241_UNINA/de6505c28c9d44fdb3acf1986672b125.html#idde6505c2-8c9d-44fd-b3ac-f1986672b125" alt="de6505c28c9d44fdb3acf1986672b125" />
+			<area shape="rect" group="e745e391833a43db8afdf531076ef19a" coords="845,81,845,81" href="../GCAP_NTP241_UNINA/e745e391833a43db8afdf531076ef19a.html#ide745e391-833a-43db-8afd-f531076ef19a" alt="e745e391833a43db8afdf531076ef19a" />
+			<area shape="rect" group="6497cedd706e41158093c177a37072c0" coords="705,181,705,181" href="../GCAP_NTP241_UNINA/6497cedd706e41158093c177a37072c0.html#id6497cedd-706e-4115-8093-c177a37072c0" alt="6497cedd706e41158093c177a37072c0" />
+			<area shape="rect" group="7dbd35902d7f493fb3ac23fd7ecb68f9" coords="937,81,937,81" href="../GCAP_NTP241_UNINA/7dbd35902d7f493fb3ac23fd7ecb68f9.html#id7dbd3590-2d7f-493f-b3ac-23fd7ecb68f9" alt="7dbd35902d7f493fb3ac23fd7ecb68f9" />
+			<area shape="rect" group="1ececd55546b4c089ea56965310834b0" coords="749,182,749,182" href="../GCAP_NTP241_UNINA/1ececd55546b4c089ea56965310834b0.html#id1ececd55-546b-4c08-9ea5-6965310834b0" alt="1ececd55546b4c089ea56965310834b0" />
+			<area shape="rect" group="2bd30a6c7ecc458d8ff4764af0655e01" coords="757,81,757,81" href="../GCAP_NTP241_UNINA/2bd30a6c7ecc458d8ff4764af0655e01.html#id2bd30a6c-7ecc-458d-8ff4-764af0655e01" alt="2bd30a6c7ecc458d8ff4764af0655e01" />
+			<area shape="rect" group="4ac7ec1bbd3843c69f1c03e9041538f6" coords="662,181,662,181" href="../GCAP_NTP241_UNINA/4ac7ec1bbd3843c69f1c03e9041538f6.html#id4ac7ec1b-bd38-43c6-9f1c-03e9041538f6" alt="4ac7ec1bbd3843c69f1c03e9041538f6" />
+			<area shape="rect" group="ee1f70c455284b869380d0fb8f7c1587" coords="529,270,529,270" href="../GCAP_NTP241_UNINA/ee1f70c455284b869380d0fb8f7c1587.html#idee1f70c4-5528-4b86-9380-d0fb8f7c1587" alt="ee1f70c455284b869380d0fb8f7c1587" />
+			<area shape="rect" group="b1b7027fd0a749b68913af383c5a98ec" coords="217,81,217,81" href="../GCAP_NTP241_UNINA/b1b7027fd0a749b68913af383c5a98ec.html#idb1b7027f-d0a7-49b6-8913-af383c5a98ec" alt="b1b7027fd0a749b68913af383c5a98ec" />
+			<area shape="rect" group="f38eda42317e412987f26a2e227e0000" coords="302,163,302,163" href="../GCAP_NTP241_UNINA/f38eda42317e412987f26a2e227e0000.html#idf38eda42-317e-4129-87f2-6a2e227e0000" alt="f38eda42317e412987f26a2e227e0000" />
+			<area shape="rect" group="e7ab1e56746a430283cc0b65e0c9ef79" coords="125,81,125,81" href="../GCAP_NTP241_UNINA/e7ab1e56746a430283cc0b65e0c9ef79.html#ide7ab1e56-746a-4302-83cc-0b65e0c9ef79" alt="e7ab1e56746a430283cc0b65e0c9ef79" />
+			<area shape="rect" group="f6fa92966c454f4791fbd47c7680fadd" coords="253,163,253,163" href="../GCAP_NTP241_UNINA/f6fa92966c454f4791fbd47c7680fadd.html#idf6fa9296-6c45-4f47-91fb-d47c7680fadd" alt="f6fa92966c454f4791fbd47c7680fadd" />
+			<area shape="rect" group="02385e475f0640a4a467940af235e7bf" coords="577,81,577,81" href="../GCAP_NTP241_UNINA/02385e475f0640a4a467940af235e7bf.html#id02385e47-5f06-40a4-a467-940af235e7bf" alt="02385e475f0640a4a467940af235e7bf" />
+			<area shape="rect" group="0f971dc743294e2fb4416b4bab9d6fe5" coords="577,172,577,172" href="../GCAP_NTP241_UNINA/0f971dc743294e2fb4416b4bab9d6fe5.html#id0f971dc7-4329-4e2f-b441-6b4bab9d6fe5" alt="0f971dc743294e2fb4416b4bab9d6fe5" />
+			<area shape="rect" group="0f971dc743294e2fb4416b4bab9d6fe5" coords="482,181,482,181" href="../GCAP_NTP241_UNINA/0f971dc743294e2fb4416b4bab9d6fe5.html#id0f971dc7-4329-4e2f-b441-6b4bab9d6fe5" alt="0f971dc743294e2fb4416b4bab9d6fe5" />
+			<area shape="rect" group="488b1d4353064863a2f804a8618f9b9e" coords="669,81,669,81" href="../GCAP_NTP241_UNINA/488b1d4353064863a2f804a8618f9b9e.html#id488b1d43-5306-4863-a2f8-04a8618f9b9e" alt="488b1d4353064863a2f804a8618f9b9e" />
+			<area shape="rect" group="3733c9ac847b4022bc8b1d9aa84a1942" coords="621,178,621,178" href="../GCAP_NTP241_UNINA/3733c9ac847b4022bc8b1d9aa84a1942.html#id3733c9ac-847b-4022-bc8b-1d9aa84a1942" alt="3733c9ac847b4022bc8b1d9aa84a1942" />
+			<area shape="rect" group="3733c9ac847b4022bc8b1d9aa84a1942" coords="527,181,527,181" href="../GCAP_NTP241_UNINA/3733c9ac847b4022bc8b1d9aa84a1942.html#id3733c9ac-847b-4022-bc8b-1d9aa84a1942" alt="3733c9ac847b4022bc8b1d9aa84a1942" />
+			<area shape="rect" group="588d6f90c5bb45e5b61b9d33860ad940" coords="35,81,35,81" href="../GCAP_NTP241_UNINA/588d6f90c5bb45e5b61b9d33860ad940.html#id588d6f90-c5bb-45e5-b61b-9d33860ad940" alt="588d6f90c5bb45e5b61b9d33860ad940" />
+			<area shape="rect" group="bd11db5077404cb8b4643bc36c974f75" coords="208,162,208,162" href="../GCAP_NTP241_UNINA/bd11db5077404cb8b4643bc36c974f75.html#idbd11db50-7740-4cb8-b464-3bc36c974f75" alt="bd11db5077404cb8b4643bc36c974f75" />
+			<area shape="rect" group="c1f46e47a19b4d278f27b01f71f1b36a" coords="397,81,397,81" href="../GCAP_NTP241_UNINA/c1f46e47a19b4d278f27b01f71f1b36a.html#idc1f46e47-a19b-4d27-8f27-b01f71f1b36a" alt="c1f46e47a19b4d278f27b01f71f1b36a" />
+			<area shape="rect" group="a50a55b0403f4e379f0e1de29261298d" coords="482,163,482,163" href="../GCAP_NTP241_UNINA/a50a55b0403f4e379f0e1de29261298d.html#ida50a55b0-403f-4e37-9f0e-1de29261298d" alt="a50a55b0403f4e379f0e1de29261298d" />
+			<area shape="rect" group="a50a55b0403f4e379f0e1de29261298d" coords="397,172,397,172" href="../GCAP_NTP241_UNINA/a50a55b0403f4e379f0e1de29261298d.html#ida50a55b0-403f-4e37-9f0e-1de29261298d" alt="a50a55b0403f4e379f0e1de29261298d" />
+			<area shape="rect" group="656edcfd12324eb48f8980e7107e86d5" coords="309,81,309,81" href="../GCAP_NTP241_UNINA/656edcfd12324eb48f8980e7107e86d5.html#id656edcfd-1232-4eb4-8f89-80e7107e86d5" alt="656edcfd12324eb48f8980e7107e86d5" />
+			<area shape="rect" group="32cd941da6014cdc91d373562867ceef" coords="435,163,435,163" href="../GCAP_NTP241_UNINA/32cd941da6014cdc91d373562867ceef.html#id32cd941d-a601-4cdc-91d3-73562867ceef" alt="32cd941da6014cdc91d373562867ceef" />
+			<area shape="rect" group="32cd941da6014cdc91d373562867ceef" coords="350,165,350,165" href="../GCAP_NTP241_UNINA/32cd941da6014cdc91d373562867ceef.html#id32cd941d-a601-4cdc-91d3-73562867ceef" alt="32cd941da6014cdc91d373562867ceef" />
+			<area shape="rect" group="0b530cfb4bba420da3f9b8ccc70806a1" coords="485,81,485,81" href="../GCAP_NTP241_UNINA/0b530cfb4bba420da3f9b8ccc70806a1.html#id0b530cfb-4bba-420d-a3f9-b8ccc70806a1" alt="0b530cfb4bba420da3f9b8ccc70806a1" />
+			<area shape="rect" group="be888450525b499297ccedad9197e13d" coords="527,164,527,164" href="../GCAP_NTP241_UNINA/be888450525b499297ccedad9197e13d.html#idbe888450-525b-4992-97cc-edad9197e13d" alt="be888450525b499297ccedad9197e13d" />
+			<area shape="rect" group="be888450525b499297ccedad9197e13d" coords="438,179,438,179" href="../GCAP_NTP241_UNINA/be888450525b499297ccedad9197e13d.html#idbe888450-525b-4992-97cc-edad9197e13d" alt="be888450525b499297ccedad9197e13d" />
+			<area shape="rect" group="8d9166bcf7314d88bd592293f1d4cf3c" coords="438,257,438,257" href="../GCAP_NTP241_UNINA/8d9166bcf7314d88bd592293f1d4cf3c.html#id8d9166bc-f731-4d88-bd59-2293f1d4cf3c" alt="8d9166bcf7314d88bd592293f1d4cf3c" />
+			<area shape="rect" group="18ad4e1a91074820bafdb15a022a6b60" coords="485,354,485,354" href="../GCAP_NTP241_UNINA/18ad4e1a91074820bafdb15a022a6b60.html#id18ad4e1a-9107-4820-bafd-b15a022a6b60" alt="18ad4e1a91074820bafdb15a022a6b60" />
+			<area shape="rect" group="a8290183ca4f4389a6129204a684e513" coords="460,447,460,447" href="../GCAP_NTP241_UNINA/a8290183ca4f4389a6129204a684e513.html#ida8290183-ca4f-4389-a612-9204a684e513" alt="a8290183ca4f4389a6129204a684e513" />
+			<area shape="rect" group="a8290183ca4f4389a6129204a684e513" coords="506,438,506,438" href="../GCAP_NTP241_UNINA/a8290183ca4f4389a6129204a684e513.html#ida8290183-ca4f-4389-a612-9204a684e513" alt="a8290183ca4f4389a6129204a684e513" />
+			<area shape="rect" group="ae27a1d5bbc1441ca231f2f4756b9ea8" coords="529,532,529,532" href="../GCAP_NTP241_UNINA/ae27a1d5bbc1441ca231f2f4756b9ea8.html#idae27a1d5-bbc1-441c-a231-f2f4756b9ea8" alt="ae27a1d5bbc1441ca231f2f4756b9ea8" />
+			<area shape="rect" group="57d88d96d999471ca3cf93279c5dac67" coords="529,624,529,624" href="../GCAP_NTP241_UNINA/57d88d96d999471ca3cf93279c5dac67.html#id57d88d96-d999-471c-a3cf-93279c5dac67" alt="57d88d96d999471ca3cf93279c5dac67" />
+			<area shape="rect" group="aca750b103e34e9ebb08774057a3f98c" coords="529,714,529,714" href="../GCAP_NTP241_UNINA/aca750b103e34e9ebb08774057a3f98c.html#idaca750b1-03e3-4e9e-bb08-774057a3f98c" alt="aca750b103e34e9ebb08774057a3f98c" />
+			<area shape="rect" group="d368231933bc44d787981b5a81a9d528" coords="480,809,480,809" href="../GCAP_NTP241_UNINA/d368231933bc44d787981b5a81a9d528.html#idd3682319-33bc-44d7-8798-1b5a81a9d528" alt="d368231933bc44d787981b5a81a9d528" />
+			<area shape="rect" group="d368231933bc44d787981b5a81a9d528" coords="572,795,572,795" href="../GCAP_NTP241_UNINA/d368231933bc44d787981b5a81a9d528.html#idd3682319-33bc-44d7-8798-1b5a81a9d528" alt="d368231933bc44d787981b5a81a9d528" />
+			<area shape="rect" group="d368231933bc44d787981b5a81a9d528" coords="529,802,529,802" href="../GCAP_NTP241_UNINA/d368231933bc44d787981b5a81a9d528.html#idd3682319-33bc-44d7-8798-1b5a81a9d528" alt="d368231933bc44d787981b5a81a9d528" />
+			<area shape="rect" group="ffc7653a7d8b486d9a73eda4d5fff114" coords="479,884,479,884" href="../GCAP_NTP241_UNINA/ffc7653a7d8b486d9a73eda4d5fff114.html#idffc7653a-7d8b-486d-9a73-eda4d5fff114" alt="ffc7653a7d8b486d9a73eda4d5fff114" />
+			<area shape="rect" group="a7fc1d2edb2a40e3b2b751bdb5bb73f6" coords="550,980,550,980" href="../GCAP_NTP241_UNINA/a7fc1d2edb2a40e3b2b751bdb5bb73f6.html#ida7fc1d2e-db2a-40e3-b2b7-51bdb5bb73f6" alt="a7fc1d2edb2a40e3b2b751bdb5bb73f6" />
+			<area shape="rect" group="a7fc1d2edb2a40e3b2b751bdb5bb73f6" coords="506,988,506,988" href="../GCAP_NTP241_UNINA/a7fc1d2edb2a40e3b2b751bdb5bb73f6.html#ida7fc1d2e-db2a-40e3-b2b7-51bdb5bb73f6" alt="a7fc1d2edb2a40e3b2b751bdb5bb73f6" />
+			<area shape="rect" group="08344cc08b354beab88524362d4179f8" coords="596,831,626,861" href="../GCAP_NTP241_UNINA/08344cc08b354beab88524362d4179f8.html#id08344cc0-8b35-4bea-b885-24362d4179f8" alt="08344cc08b354beab88524362d4179f8" />
+			<area shape="rect" group="112c4c7d3a5c41e3a68d08f1e170e3c1" coords="504,831,534,861" href="../GCAP_NTP241_UNINA/112c4c7d3a5c41e3a68d08f1e170e3c1.html#id112c4c7d-3a5c-41e3-a68d-08f1e170e3c1" alt="112c4c7d3a5c41e3a68d08f1e170e3c1" />
+			<area shape="rect" group="bc688b2033f14edaa4e4fd5299b90543" coords="596,471,626,501" href="../GCAP_NTP241_UNINA/bc688b2033f14edaa4e4fd5299b90543.html#idbc688b20-33f1-4eda-a4e4-fd5299b90543" alt="bc688b2033f14edaa4e4fd5299b90543" />
+			<area shape="rect" group="de6505c28c9d44fdb3acf1986672b125" coords="412,471,442,501" href="../GCAP_NTP241_UNINA/de6505c28c9d44fdb3acf1986672b125.html#idde6505c2-8c9d-44fd-b3ac-f1986672b125" alt="de6505c28c9d44fdb3acf1986672b125" />
+			<area shape="rect" group="e745e391833a43db8afdf531076ef19a" coords="820,21,850,51" href="../GCAP_NTP241_UNINA/e745e391833a43db8afdf531076ef19a.html#ide745e391-833a-43db-8afd-f531076ef19a" alt="e745e391833a43db8afdf531076ef19a" />
+			<area shape="rect" group="6497cedd706e41158093c177a37072c0" coords="820,111,850,141" href="../GCAP_NTP241_UNINA/6497cedd706e41158093c177a37072c0.html#id6497cedd-706e-4115-8093-c177a37072c0" alt="6497cedd706e41158093c177a37072c0" />
+			<area shape="rect" group="7dbd35902d7f493fb3ac23fd7ecb68f9" coords="912,21,942,51" href="../GCAP_NTP241_UNINA/7dbd35902d7f493fb3ac23fd7ecb68f9.html#id7dbd3590-2d7f-493f-b3ac-23fd7ecb68f9" alt="7dbd35902d7f493fb3ac23fd7ecb68f9" />
+			<area shape="rect" group="1ececd55546b4c089ea56965310834b0" coords="912,111,942,141" href="../GCAP_NTP241_UNINA/1ececd55546b4c089ea56965310834b0.html#id1ececd55-546b-4c08-9ea5-6965310834b0" alt="1ececd55546b4c089ea56965310834b0" />
+			<area shape="rect" group="2bd30a6c7ecc458d8ff4764af0655e01" coords="732,21,762,51" href="../GCAP_NTP241_UNINA/2bd30a6c7ecc458d8ff4764af0655e01.html#id2bd30a6c-7ecc-458d-8ff4-764af0655e01" alt="2bd30a6c7ecc458d8ff4764af0655e01" />
+			<area shape="rect" group="4ac7ec1bbd3843c69f1c03e9041538f6" coords="732,111,762,141" href="../GCAP_NTP241_UNINA/4ac7ec1bbd3843c69f1c03e9041538f6.html#id4ac7ec1b-bd38-43c6-9f1c-03e9041538f6" alt="4ac7ec1bbd3843c69f1c03e9041538f6" />
+			<area shape="rect" group="ee1f70c455284b869380d0fb8f7c1587" coords="552,203,582,233" href="../GCAP_NTP241_UNINA/ee1f70c455284b869380d0fb8f7c1587.html#idee1f70c4-5528-4b86-9380-d0fb8f7c1587" alt="ee1f70c455284b869380d0fb8f7c1587" />
+			<area shape="rect" group="b1b7027fd0a749b68913af383c5a98ec" coords="192,21,222,51" href="../GCAP_NTP241_UNINA/b1b7027fd0a749b68913af383c5a98ec.html#idb1b7027f-d0a7-49b6-8913-af383c5a98ec" alt="b1b7027fd0a749b68913af383c5a98ec" />
+			<area shape="rect" group="f38eda42317e412987f26a2e227e0000" coords="192,111,222,141" href="../GCAP_NTP241_UNINA/f38eda42317e412987f26a2e227e0000.html#idf38eda42-317e-4129-87f2-6a2e227e0000" alt="f38eda42317e412987f26a2e227e0000" />
+			<area shape="rect" group="e7ab1e56746a430283cc0b65e0c9ef79" coords="100,21,130,51" href="../GCAP_NTP241_UNINA/e7ab1e56746a430283cc0b65e0c9ef79.html#ide7ab1e56-746a-4302-83cc-0b65e0c9ef79" alt="e7ab1e56746a430283cc0b65e0c9ef79" />
+			<area shape="rect" group="f6fa92966c454f4791fbd47c7680fadd" coords="100,111,130,141" href="../GCAP_NTP241_UNINA/f6fa92966c454f4791fbd47c7680fadd.html#idf6fa9296-6c45-4f47-91fb-d47c7680fadd" alt="f6fa92966c454f4791fbd47c7680fadd" />
+			<area shape="rect" group="02385e475f0640a4a467940af235e7bf" coords="552,21,582,51" href="../GCAP_NTP241_UNINA/02385e475f0640a4a467940af235e7bf.html#id02385e47-5f06-40a4-a467-940af235e7bf" alt="02385e475f0640a4a467940af235e7bf" />
+			<area shape="rect" group="0f971dc743294e2fb4416b4bab9d6fe5" coords="552,111,582,141" href="../GCAP_NTP241_UNINA/0f971dc743294e2fb4416b4bab9d6fe5.html#id0f971dc7-4329-4e2f-b441-6b4bab9d6fe5" alt="0f971dc743294e2fb4416b4bab9d6fe5" />
+			<area shape="rect" group="488b1d4353064863a2f804a8618f9b9e" coords="644,21,674,51" href="../GCAP_NTP241_UNINA/488b1d4353064863a2f804a8618f9b9e.html#id488b1d43-5306-4863-a2f8-04a8618f9b9e" alt="488b1d4353064863a2f804a8618f9b9e" />
+			<area shape="rect" group="3733c9ac847b4022bc8b1d9aa84a1942" coords="644,111,674,141" href="../GCAP_NTP241_UNINA/3733c9ac847b4022bc8b1d9aa84a1942.html#id3733c9ac-847b-4022-bc8b-1d9aa84a1942" alt="3733c9ac847b4022bc8b1d9aa84a1942" />
+			<area shape="rect" group="588d6f90c5bb45e5b61b9d33860ad940" coords="11,21,41,51" href="../GCAP_NTP241_UNINA/588d6f90c5bb45e5b61b9d33860ad940.html#id588d6f90-c5bb-45e5-b61b-9d33860ad940" alt="588d6f90c5bb45e5b61b9d33860ad940" />
+			<area shape="rect" group="bd11db5077404cb8b4643bc36c974f75" coords="10,111,40,141" href="../GCAP_NTP241_UNINA/bd11db5077404cb8b4643bc36c974f75.html#idbd11db50-7740-4cb8-b464-3bc36c974f75" alt="bd11db5077404cb8b4643bc36c974f75" />
+			<area shape="rect" group="c1f46e47a19b4d278f27b01f71f1b36a" coords="372,21,402,51" href="../GCAP_NTP241_UNINA/c1f46e47a19b4d278f27b01f71f1b36a.html#idc1f46e47-a19b-4d27-8f27-b01f71f1b36a" alt="c1f46e47a19b4d278f27b01f71f1b36a" />
+			<area shape="rect" group="a50a55b0403f4e379f0e1de29261298d" coords="372,111,402,141" href="../GCAP_NTP241_UNINA/a50a55b0403f4e379f0e1de29261298d.html#ida50a55b0-403f-4e37-9f0e-1de29261298d" alt="a50a55b0403f4e379f0e1de29261298d" />
+			<area shape="rect" group="656edcfd12324eb48f8980e7107e86d5" coords="284,21,314,51" href="../GCAP_NTP241_UNINA/656edcfd12324eb48f8980e7107e86d5.html#id656edcfd-1232-4eb4-8f89-80e7107e86d5" alt="656edcfd12324eb48f8980e7107e86d5" />
+			<area shape="rect" group="32cd941da6014cdc91d373562867ceef" coords="284,111,314,141" href="../GCAP_NTP241_UNINA/32cd941da6014cdc91d373562867ceef.html#id32cd941d-a601-4cdc-91d3-73562867ceef" alt="32cd941da6014cdc91d373562867ceef" />
+			<area shape="rect" group="0b530cfb4bba420da3f9b8ccc70806a1" coords="460,21,490,51" href="../GCAP_NTP241_UNINA/0b530cfb4bba420da3f9b8ccc70806a1.html#id0b530cfb-4bba-420d-a3f9-b8ccc70806a1" alt="0b530cfb4bba420da3f9b8ccc70806a1" />
+			<area shape="rect" group="be888450525b499297ccedad9197e13d" coords="460,111,490,141" href="../GCAP_NTP241_UNINA/be888450525b499297ccedad9197e13d.html#idbe888450-525b-4992-97cc-edad9197e13d" alt="be888450525b499297ccedad9197e13d" />
+			<area shape="rect" group="8d9166bcf7314d88bd592293f1d4cf3c" coords="372,203,402,233" href="../GCAP_NTP241_UNINA/8d9166bcf7314d88bd592293f1d4cf3c.html#id8d9166bc-f731-4d88-bd59-2293f1d4cf3c" alt="8d9166bcf7314d88bd592293f1d4cf3c" />
+			<area shape="rect" group="18ad4e1a91074820bafdb15a022a6b60" coords="460,295,490,325" href="../GCAP_NTP241_UNINA/18ad4e1a91074820bafdb15a022a6b60.html#id18ad4e1a-9107-4820-bafd-b15a022a6b60" alt="18ad4e1a91074820bafdb15a022a6b60" />
+			<area shape="rect" group="a8290183ca4f4389a6129204a684e513" coords="460,383,490,413" href="../GCAP_NTP241_UNINA/a8290183ca4f4389a6129204a684e513.html#ida8290183-ca4f-4389-a612-9204a684e513" alt="a8290183ca4f4389a6129204a684e513" />
+			<area shape="rect" group="ae27a1d5bbc1441ca231f2f4756b9ea8" coords="504,471,534,501" href="../GCAP_NTP241_UNINA/ae27a1d5bbc1441ca231f2f4756b9ea8.html#idae27a1d5-bbc1-441c-a231-f2f4756b9ea8" alt="ae27a1d5bbc1441ca231f2f4756b9ea8" />
+			<area shape="rect" group="57d88d96d999471ca3cf93279c5dac67" coords="504,563,534,593" href="../GCAP_NTP241_UNINA/57d88d96d999471ca3cf93279c5dac67.html#id57d88d96-d999-471c-a3cf-93279c5dac67" alt="57d88d96d999471ca3cf93279c5dac67" />
+			<area shape="rect" group="aca750b103e34e9ebb08774057a3f98c" coords="504,655,534,685" href="../GCAP_NTP241_UNINA/aca750b103e34e9ebb08774057a3f98c.html#idaca750b1-03e3-4e9e-bb08-774057a3f98c" alt="aca750b103e34e9ebb08774057a3f98c" />
+			<area shape="rect" group="d368231933bc44d787981b5a81a9d528" coords="504,743,534,773" href="../GCAP_NTP241_UNINA/d368231933bc44d787981b5a81a9d528.html#idd3682319-33bc-44d7-8798-1b5a81a9d528" alt="d368231933bc44d787981b5a81a9d528" />
+			<area shape="rect" group="ffc7653a7d8b486d9a73eda4d5fff114" coords="412,831,442,861" href="../GCAP_NTP241_UNINA/ffc7653a7d8b486d9a73eda4d5fff114.html#idffc7653a-7d8b-486d-9a73-eda4d5fff114" alt="ffc7653a7d8b486d9a73eda4d5fff114" />
+			<area shape="rect" group="57d88d96d999471ca3cf93279c5dac67" coords="548,1015,578,1045" href="../GCAP_NTP241_UNINA/57d88d96d999471ca3cf93279c5dac67.html#id6087cdc7-4ede-4e58-96da-9e91390b2dc8" alt="57d88d96d999471ca3cf93279c5dac67" />
+			<area shape="rect" group="57d88d96d999471ca3cf93279c5dac67" coords="460,1015,490,1045" href="../GCAP_NTP241_UNINA/57d88d96d999471ca3cf93279c5dac67.html#id39056f00-38e4-4684-acb7-d1b45801f33c" alt="57d88d96d999471ca3cf93279c5dac67" />
+			<area shape="rect" group="a7fc1d2edb2a40e3b2b751bdb5bb73f6" coords="504,923,534,953" href="../GCAP_NTP241_UNINA/a7fc1d2edb2a40e3b2b751bdb5bb73f6.html#ida7fc1d2e-db2a-40e3-b2b7-51bdb5bb73f6" alt="a7fc1d2edb2a40e3b2b751bdb5bb73f6" />		
+		</map>
+	</p>
+	<p class="diagram-description"></p>
+	</div>
+
+<h2>Diagrams displaying "(LS-03) Tampering of Control Action CA2 via Command INjection Attack"</h2>
+<ul>
+<li>
+<a href="../GCAP_NTP241_UNINA/a7fc1d2edb2a40e3b2b751bdb5bb73f6.html#_GL4UkDDLEfCPq7MXolFNmQ">&#091;CTD&#093; Contextual Traceability Diagram of Tampering of Control Action CA2 via Command INjection Attack</a> 
+</li>
+</ul>
+
+
+
+
+
+ </div>	</body>
+</html>
